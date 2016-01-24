@@ -1,0 +1,40 @@
+h1 {
+  text-align:center;
+}
+
+span#red {
+  color:red;
+}
+
+p {
+  font-family: "courier new", "lucida console", monospace;
+}
+
+.sidebar {
+  background-color: #ff0000;
+  width: 20%;
+  float: left;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "courier new", "lucida console", monospace;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #800000;
+    font-family: "courier new", "lucida console", monospace;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "courier new", "lucida console", monospace;
+}
+
+a:active {
+    text-decoration: none;
+    font-family: "courier new", "lucida console", monospace;
+}
