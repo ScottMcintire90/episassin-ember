@@ -1,6 +1,24 @@
-.images {
+body {
+  font-family: "courier new", "lucida console", monospace;
+  background-color: black;
+  width:auto;
+}
+
+h1 {
+  color:#ffffff;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+}
+
+.frodo {
   display:block;
   margin:auto;
   height:40%;
   width: 40%;
+  text-align: center;
+  width:400px;
+  font-size: 75%;
 }
