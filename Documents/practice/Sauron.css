@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  font-family: "courier new", "lucida console", monospace;
 }
 
 h1 {
@@ -12,7 +13,6 @@ span#red {
 }
 
 p {
-  font-family: "courier new", "lucida console", monospace;
   text-align: center;
   color:#ffffff;
 }
@@ -31,22 +31,18 @@ img {
 a:link {
   text-decoration: none;
   color: #ffffff;
-  font-family: "courier new", "lucida console", monospace;
 }
 
 a:visited {
     text-decoration: none;
     color: #800000;
-    font-family: "courier new", "lucida console", monospace;
 }
 
 a:hover {
     text-decoration: none;
     color: #ffffff;
-    font-family: "courier new", "lucida console", monospace;
 }
 
 a:active {
     text-decoration: none;
-    font-family: "courier new", "lucida console", monospace;
 }
