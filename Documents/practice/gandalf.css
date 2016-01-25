@@ -11,3 +11,17 @@ h1 {
 p {
   color:#ffffff;
 }
+
+span#red {
+    color:red;
+  }
+
+.image {
+  display:block;
+  margin: auto;
+  height: 40%;
+  width: 40%;
+  text-align: center;
+  width:400px;
+  font-size:75%;
+}
