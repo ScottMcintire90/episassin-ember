@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  font-family: "courier new", "lucida console", monospace;
+}
+
+h1 {
+  color:#ffffff;
+  text-align: center;
+}
+
+p {
+  color:#ffffff;
+}
