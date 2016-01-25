@@ -1,5 +1,10 @@
+body {
+  background-color: black;
+}
+
 h1 {
   text-align:center;
+  color:#ffffff;
 }
 
 span#red {
@@ -8,12 +13,19 @@ span#red {
 
 p {
   font-family: "courier new", "lucida console", monospace;
+  text-align: center;
+  color:#ffffff;
+}
+
+img {
+  float:right;
 }
 
 .sidebar {
   background-color: #ff0000;
   width: 20%;
   float: left;
+  text-align: center;
 }
 
 a:link {
