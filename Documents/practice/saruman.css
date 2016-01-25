@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  font-family: "courier new", "lucida console", monospace;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+p {
+  color:#ffffff;
+}
+
+span#red {
+  color:red;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #800000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:active {
+    text-decoration: none;
+}
