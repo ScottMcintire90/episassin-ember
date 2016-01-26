@@ -85,7 +85,31 @@ sub {
 }
 img {
   border: 0;
+  height: 300px;
+  width: 300px;
 }
+
+.caption {
+  display:block;
+  margin:auto;
+  height:40%;
+  width: 40%;
+  text-align: center;
+  width:400px;
+  font-size: 75%;
+}
+
+.column {
+  -webkit-columns: 2 420px;
+  -moz-columns: 2 420px;
+  columns: 2 420px;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+  float:left;
+
+}
+
 svg:not(:root) {
   overflow: hidden;
 }
