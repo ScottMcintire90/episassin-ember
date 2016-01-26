@@ -48,6 +48,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  color: #000099;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -86,7 +87,7 @@ sub {
 img {
   border: 0;
   height: 300px;
-  width: 300px;
+  width: 350px;
 }
 
 .caption {
@@ -100,14 +101,16 @@ img {
 }
 
 .column {
-  -webkit-columns: 2 420px;
-  -moz-columns: 2 420px;
-  columns: 2 420px;
+  -webkit-columns: 2 300px;
+  -moz-columns: 2 300px;
+  columns: 2 300px;
   -webkit-column-gap: 1em;
   -moz-column-gap: 1em;
   column-gap: 1em;
-  padding: 10px;
+  width: 45%;
+  padding:80px;
   float:left;
+  text-align: left;
 }
 
 .center {
@@ -229,7 +232,8 @@ th {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
+    color:#000099;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -1131,8 +1135,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #23527c;
-  text-decoration: underline;
+  color: #660066;
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted;
@@ -1453,8 +1457,10 @@ ol ol {
   margin-bottom: 0;
 }
 .list-unstyled {
-  padding-left: 0;
+  padding-left: 15%;
   list-style: none;
+  text-align: left;
+  padding-top: 10px;
 }
 .list-inline {
   padding-left: 0;

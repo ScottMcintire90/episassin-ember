@@ -21,6 +21,12 @@ img {
   float:right;
 }
 
+.list-unstyled {
+  padding-left: 10%;
+  list-style: none;
+  text-align: left;
+  padding-top: 10px;
+}
 .sidebar {
   background-color: #ff0000;
   width: 20%;
