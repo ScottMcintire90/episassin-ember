@@ -118,6 +118,10 @@ img {
   font-size: 18px;
 }
 
+span#red {
+  color:red;
+}
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -1203,24 +1207,48 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
-h1,
+
 h2,
 h3,
 h4,
 h5,
 h6,
-.h1,
 .h2,
 .h3,
 .h4,
 .h5,
 .h6 {
   font-family: monospace;
+  line-height: 1.1;
+  color: inherit;
+  text-align: center;
+  background-color: #4d0000;
+  color: #ffffcc;
+  border-radius:25px;
+  padding:20px;
+  width:60%;
+  height:75px;
+  margin:auto;
+}
+
+h1,
+.h1
+{
+  font-family: monospace;
   font-weight: bold;
   line-height: 1.1;
   color: inherit;
   text-align: center;
+  background-color:#800000;
+  color: #ffffcc;
+  border-radius:25px;
+  padding:20px;
+  width:70%;
+  height:75px;
+  margin:auto;
 }
+
+
 h1 small,
 h2 small,
 h3 small,
@@ -1460,7 +1488,7 @@ ol ol {
   padding-left: 15%;
   list-style: none;
   text-align: left;
-  padding-top: 10px;
+  padding: 50px;
 }
 .list-inline {
   padding-left: 0;
