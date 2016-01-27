@@ -9,8 +9,20 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+  color:#ffffff;
+  float: left;
+}
+
 p {
   color: #ffffff;
+  float:left;
+}
+
+
+span#red {
+  color:red;
 }
 
 .frodo {
@@ -21,4 +33,15 @@ p {
   text-align: center;
   width:400px;
   font-size: 75%;
+}
+
+.column {
+  width:420px;
+  float:left;
+}
+
+
+img {
+  width: 400px;
+  height:300px;
 }
