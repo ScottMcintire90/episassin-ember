@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  font-family: "courier new", "lucida console", monospace;
+}
+
+h1 {
+  color:#ffffff;
+  text-align: center;
+}
+
+p {
+  color:#ffffff;
+}
+
+span#red {
+    color:red;
+  }
+
+span#grey{
+  color:grey;
+}
+
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
+}
+
+.image {
+  display:block;
+  margin: auto;
+  height: 40%;
+  width: 40%;
+  text-align: center;
+  width:400px;
+  font-size:75%;
+  padding: 10px;
+}

@@ -1,0 +1,47 @@
+body {
+  font-family: "courier new", "lucida console", monospace;
+  background-color: black;
+  width:auto;
+}
+
+h1 {
+  color:#ffffff;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color:#ffffff;
+  float: left;
+}
+
+p {
+  color: #ffffff;
+  float:left;
+}
+
+
+span#red {
+  color:red;
+}
+
+.frodo {
+  display:block;
+  margin:auto;
+  height:40%;
+  width: 40%;
+  text-align: center;
+  width:400px;
+  font-size: 75%;
+}
+
+.column {
+  width:420px;
+  float:left;
+}
+
+
+img {
+  width: 400px;
+  height:300px;
+}

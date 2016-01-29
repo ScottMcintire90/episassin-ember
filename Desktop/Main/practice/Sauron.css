@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  font-family: "courier new", "lucida console", monospace;
+}
+
+h1 {
+  text-align:center;
+  color:#ffffff;
+}
+
+span#red {
+  color:red;
+}
+
+p {
+  text-align: center;
+  color:#ffffff;
+}
+
+img {
+  float:right;
+  width:79%;
+  height:auto;
+}
+
+.list-unstyled {
+  padding-left: 10%;
+  list-style: none;
+  text-align: left;
+  padding-top: 10px;
+}
+.sidebar {
+  background-color: #ff0000;
+  width: 20%;
+  float: left;
+  text-align: center;
+  height:100%;
+  position:absolute;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #800000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:active {
+    text-decoration: none;
+}
