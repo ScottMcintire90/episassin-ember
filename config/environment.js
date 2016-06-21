@@ -5,6 +5,12 @@ module.exports = function(environment) {
     modulePrefix: 'episassin',
     environment: environment,
     baseURL: '/',
+    firebase: {
+      apiKey: "AIzaSyA0Towv7in2xig0iAT7yjbohmlIVdBetUI",
+      authDomain: "episassin.firebaseapp.com",
+      databaseURL: "https://episassin.firebaseio.com",
+      storageBucket: "episassin.appspot.com",
+    },
     locationType: 'auto',
     EmberENV: {
       FEATURES: {

@@ -4,9 +4,5 @@ import { belongsTo } from 'ember-data/relationships';
 
 export default Model.extend({
   username: attr(),
-  password: attr(),
-  avatar: attr(),
-  target: belongsTo('target', { async:true }),
-  kill: attr(),
-  code: attr()
+  user: belongsTo('user', { async:true })
 });
