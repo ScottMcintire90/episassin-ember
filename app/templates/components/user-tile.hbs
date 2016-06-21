@@ -1,0 +1,9 @@
+<ul>
+  {{#each users as |user|}}
+    <li>
+      {{#link-to 'user' user.id}}
+        <p>{{user.username}}</p>
+      {{/link-to}}
+    </li>
+  {{/each}}
+</ul>
