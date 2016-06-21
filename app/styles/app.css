@@ -7,3 +7,14 @@ body{
   bottom: 0px;
   right: 0px;
 }
+
+.theFaces {
+  border-radius: 100%;
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.theNinja{
+  margin-top: -170px;
+}
