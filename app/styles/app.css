@@ -1,0 +1,9 @@
+body{
+  background-color: #DDDAB9;
+}
+
+.creepyDude{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
