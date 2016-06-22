@@ -1,12 +1,54 @@
+/*Header for site*/
 #header {
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  padding: 10px;
   text-align: center;
+  font-size: 60px;
+  letter-spacing: 25px;
 }
-.assassins {
-  
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
+}
+
+/*Styling for individual assassin page*/
+.assassin-profile {
+  margin-left: 2%;
 }
 .assassin-list {
   list-style-type: none;
 }
 .assassin-list li {
   margin: 10px;
+}
+.assassin-header {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.stats {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 600px;
+  top: 0;
+  left: 0;
+}
+.avatar {
+  margin-bottom: 15px;
+  height: 300px;
+}
+.avatar-image {
+  border-radius:
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 270px;
+  width: 270px;
 }

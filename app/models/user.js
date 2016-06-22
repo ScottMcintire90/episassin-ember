@@ -8,5 +8,6 @@ export default Model.extend({
   avatar: attr(),
   target: belongsTo('target', { async:true }),
   kill: attr(),
-  code: attr()
+  code: attr(),
+  weapon: attr()
 });
