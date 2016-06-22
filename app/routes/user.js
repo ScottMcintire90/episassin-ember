@@ -4,5 +4,9 @@ export default Ember.Route.extend({
   model(params) {
     return this.store.findRecord('user', params.user_id);
   },
-  
+  actions: {
+    saveKill(user) {
+      user.save();
+    }
+  }
 });
