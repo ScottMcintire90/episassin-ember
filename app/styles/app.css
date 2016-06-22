@@ -29,13 +29,14 @@ body {
 .assassin-header {
   text-align: center;
   font-size: 30px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .stats {
   border: 1px solid black;
   border-radius: 10px;
   width: 300px;
-  height: 600px;
+  height: 400px;
   top: 0;
   left: 0;
 }
@@ -51,4 +52,54 @@ body {
   margin-right: auto;
   height: 270px;
   width: 270px;
+}
+.weapon-image {
+  border-radius: 15px;
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 180px;
+  width: 180px;
+}
+/*marquee styling under header*/
+.marquee {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 50s linear infinite;
+    margin-top: -40px;
+}
+
+.marquee:hover {
+    animation-play-state: paused
+}
+/* Make it move */
+@keyframes marquee {
+    0%   { text-indent: 27.5em }
+    100% { text-indent: -105em }
+}
+/* Make it pretty */
+.microsoft {
+    padding-left: 1.5em;
+    position: relative;
+    font-size: 20px;
+}
+/* ::before was :before before ::before was ::before - kthx */
+.microsoft:before, .microsoft::before {
+    z-index: 2;
+    content: '';
+    position: absolute;
+    top: 2em; left: -1em;
+    width: .5em; height: .5em;
+}
+.microsoft:after, .microsoft::after {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 2em; height: 2em;
+
 }

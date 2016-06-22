@@ -7,9 +7,14 @@
     <img class="avatar-image" src='{{user.avatar}}'>
   </div>
   <div class="col-md-4 stats">
-    <ul>
-      <li><label>Current Target: {{user.target}}</label></li>
-      <li><label>Weapon of Choice: {{user.weapon}}</label></li>
-    </ul>
+    <h3><center>Target</center></h3>
+    <br>
+    {{user.target}}
+    <br>
+    <br>
+    <h3><center>Weapon</center></h3>
+    <br>
+    {{user.weapon}}
+    <img class="weapon-image" src='{{user.weaponImage}}'>
   </div>
 </div>
