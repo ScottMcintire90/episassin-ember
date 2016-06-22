@@ -81,6 +81,9 @@ body {
   top: 0;
   left: 0;
 }
+.indent {
+  margin-left: 20px;
+}
 .avatar {
   margin-bottom: 15px;
   height: 300px;
@@ -101,7 +104,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: 180px;
-  width: 180px;
+  width: 160px;
 }
 #assassin-password {
   display: none;
@@ -109,6 +112,33 @@ body {
 
 #assassin-item:hover #assassin-password {
   display: block;
+}
+.trophy-shelf {
+  background-image: url('shelf.jpg');
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 716px;
+  top: 296px;
+  right: 0;
+  float: right;
+  position: absolute;
+  margin-right: 10px;
+}
+.code-image {
+  margin-left: 35%;
+  margin-top: -700px;
+}
+.code {
+  margin-left: 10%;
+}
+#user-code {
+  margin-left: 25px;
+  margin-top: -20px;
+}
+#code-image-size {
+  height: 300px;
+  width: 350px;
 }
 
 /*marquee styling under header*/
