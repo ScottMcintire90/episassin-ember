@@ -9,5 +9,8 @@ export default Model.extend({
   targetNum: attr(),
   target: belongsTo('target', { async:true }),
   kill: attr(),
-  code: attr()
+  code: attr(),
+  weapon: attr(),
+  weaponImage: attr(),
+  codeImage: attr()
 });

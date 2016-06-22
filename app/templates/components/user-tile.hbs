@@ -1,9 +1,7 @@
-<ul>
-  {{#each users as |user|}}
-    <li>
-      {{#link-to 'user' user.id}}
-        <p>{{user.username}}</p>
-      {{/link-to}}
-    </li>
-  {{/each}}
-</ul>
+{{#each users as |user|}}
+  <div id="assassin-item">
+    <li>{{#link-to 'password' user.id user=model}}
+    {{user.username}}{{/link-to}}</li>
+    <span id="assassin-password">Password: {{user.password}}</span>
+  </div>
+{{/each}}

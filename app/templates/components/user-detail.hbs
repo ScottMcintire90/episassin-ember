@@ -1,1 +1,20 @@
-{{user.username}}'s Page
+<div class="assassin-header">
+  {{user.username}}
+</div>
+<h2 class="assassin-profile">Assassin Profile</h2>
+<div class="assassin-content">
+  <div class="avatar stats">
+    <img class="avatar-image" src='{{user.avatar}}'>
+  </div>
+  <div class="col-md-4 stats">
+    <h3><center>Target</center></h3>
+    <br>
+    {{user.target}}
+    <br>
+    <br>
+    <h3><center>Weapon</center></h3>
+    <br>
+    {{user.weapon}}
+    <img class="weapon-image" src='{{user.weaponImage}}'>
+  </div>
+</div>

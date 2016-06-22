@@ -1,12 +1,150 @@
+/*Header for site*/
 #header {
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 25px;
+}
+#header a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
+}
+
+/*styling for the homepage*/
+.allAssassins {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 1400px;
+  top: 0;
+  left: 0;
+}
+.allAssassins-header {
+  margin-left: 6%;
+}
+.login-form-div {
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-top: 70px;
+  margin-right: 300px;
+  margin-left: 300px;
   text-align: center;
 }
-.assassins {
-  
+.login-form button {
+  width: 80px;
+  height: 30px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/*Styling for individual assassin page*/
+.assassin-profile {
+  margin-left: 2%;
 }
 .assassin-list {
   list-style-type: none;
 }
 .assassin-list li {
-  margin: 10px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.assassin-list a {
+  text-decoration: none;
+  color: black;
+}
+.assassin-header {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.stats {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  top: 0;
+  left: 0;
+}
+.avatar {
+  margin-bottom: 15px;
+  height: 300px;
+}
+.avatar-image {
+  border-radius:
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 270px;
+  width: 270px;
+}
+.weapon-image {
+  border-radius: 15px;
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 180px;
+  width: 180px;
+}
+#assassin-password {
+  display: none;
+}
+
+#assassin-item:hover #assassin-password {
+  display: block;
+}
+
+/*marquee styling under header*/
+.marquee {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 50s linear infinite;
+    margin-top: -40px;
+}
+
+.marquee:hover {
+    animation-play-state: paused
+}
+/* Make it move */
+@keyframes marquee {
+    0%   { text-indent: 27.5em }
+    100% { text-indent: -105em }
+}
+/* Make it pretty */
+.microsoft {
+    padding-left: 1.5em;
+    position: relative;
+    font-size: 20px;
+}
+/* ::before was :before before ::before was ::before - kthx */
+.microsoft:before, .microsoft::before {
+    z-index: 2;
+    content: '';
+    position: absolute;
+    top: 2em; left: -1em;
+    width: .5em; height: .5em;
+}
+.microsoft:after, .microsoft::after {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 2em; height: 2em;
+
 }
