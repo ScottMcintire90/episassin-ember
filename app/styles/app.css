@@ -10,6 +10,10 @@
   font-size: 60px;
   letter-spacing: 25px;
 }
+.star {
+  width: 50px;
+  height: 50px;
+}
 #header a {
   text-decoration: none;
   color: black;
@@ -82,7 +86,7 @@ body {
   height: 300px;
 }
 .avatar-image {
-  border-radius:
+  border-radius: 15px;
   margin-top: 15px;
   display: block;
   margin-left: auto;
@@ -109,7 +113,7 @@ body {
 
 /*marquee styling under header*/
 .marquee {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
     white-space: nowrap;

@@ -1,3 +1,8 @@
 <p id="header">{{#link-to 'index'}}EPISASSIN{{/link-to}}</p>
-<p class="microsoft marquee">Pinnochio assassinated Donald Duck with a pair of headphones. Bugs Bunny was assassinated by Winnie the Pooh with a coffee mug.</p>
+<p class="microsoft marquee">{{#each model.users as |user|}}<img class="star" src="star.png">
+  {{#if user.dead}}
+    {{user.username}} was killed by {{user.target.username}} with {{user.weapon}}
+  {{/if}}
+{{/each}}</p>
+
 {{outlet}}

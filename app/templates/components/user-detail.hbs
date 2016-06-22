@@ -6,7 +6,7 @@
   <div class="avatar stats">
     <img class="avatar-image" src='{{user.avatar}}'>
   </div>
-  <div class="col-md-4 stats">
+  <div class="stats">
     <h3><center>Target</center></h3>
     <br>
     {{user.target.username}}
@@ -18,3 +18,4 @@
     <img class="weapon-image" src='{{user.weaponImage}}'>
   </div>
 </div>
+  <button class="btn-danger" {{action 'killUser' user}}>Killed Target</button>

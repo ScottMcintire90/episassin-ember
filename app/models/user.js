@@ -12,5 +12,6 @@ export default Model.extend({
   code: attr(),
   weapon: attr(),
   weaponImage: attr(),
-  codeImage: attr()
+  codeImage: attr(),
+  dead: attr()
 });
