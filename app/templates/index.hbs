@@ -1,13 +1,9 @@
-
-{{user-tile users=model}}
-
-<h2>Assassins</h2>
-<h4>Click to login</h4>
-<div class="col-sm-3 assassins">
-<ul class="assassin-list">
-  {{#each model.users as |user|}}
-  <li>{{#link-to 'password' user.id user=model}}
-    {{user.username}}{{/link-to}}</li>
-  {{/each}}
-</ul>
+<h2 class="allAssassins-header">Assassins</h2>
+<div class="allAssassins">
+  <h4><center>Click to login</center></h4>
+  <div class="col-sm-3 assassins">
+    <ul class="assassin-list">
+      {{user-tile users=model.users}}
+    </ul>
+  </div>
 </div>
