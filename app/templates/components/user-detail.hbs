@@ -19,7 +19,6 @@
     </div>
   </div>
 
-
   <div class="code-image">
     <img id="code-image-size" src={{user.codeImage}}>
     <div class="code">
@@ -28,6 +27,8 @@
       <p id="user-code">{{user.code}}</p>
     </div>
   </div>
+
+    {{log-kill user=model.user users=model.users targets=model.targets checkCode="checkCode"}}
 
   <div class="trophy-shelf">
 
