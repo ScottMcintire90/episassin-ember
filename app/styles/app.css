@@ -1,14 +1,60 @@
 /*Header for site*/
 #header {
-  border: 3px solid black;
-  border-radius: 10px;
   margin-left: 200px;
   margin-right: 200px;
-  margin-top: 20px;
-  padding: 10px;
+  margin-bottom: 30px;
+  margin-top: -5px;
   text-align: center;
   font-size: 60px;
   letter-spacing: 25px;
+  text-shadow: -1px 0 #990000, 0 1px #990000, 1px 0 #990000, 0 -1px #990000;
+  -webkit-filter: drop-shadow(3px 3px 3px #222);
+  filter: drop-shadow(3px 3px 3px #222);
+}
+.ninjaDiv {
+  position: relative;
+}
+.ninjaDiv a {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.ninjaDiv img {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.ninja {
+  width: 80px;
+  height: 80px;
+}
+.ninja2 {
+  margin-left: 20%;
+  width: 80px;
+  height: 80px;
+}
+.ninja3 {
+  margin-left: 70%;
+  height: 95px;
+  margin-top: -10px;
+}
+.ninja4 {
+  margin-left: 93%;
+  height: 87px;
+  margin-top: -8px;
+}
+.blood {
+  margin-right: 2%;
+  margin-top: -190px;
+  width: 600px;
+  height: 70px;
+  -webkit-filter: drop-shadow(3px 3px 3px #222);
+  filter: drop-shadow(3px 3px 3px #222);
+}
+.head {
+  text-align: center;
 }
 .star {
   width: 50px;
@@ -18,23 +64,44 @@
   text-decoration: none;
   color: black;
 }
+.aboutLink {
+  margin-left: 170%;
+  padding-top: 1.5%;
+  font-size: 27px;
+  color: black;
+  font-weight: bold;
+}
+.contactLink {
+  margin-left: 1040%;
+  padding-top: 1.5%;
+  font-size: 27px;
+  color: black;
+  font-weight: bold;
+}
 
 body {
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 1px;
+  background: url(  "https://theladylikeleopard.files.wordpress.com/2015/05/white-brick-wall-with-grey-concrete-floor.jpg"
+) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
 }
 
 /*styling for the homepage*/
 .allAssassins {
-  border: 1px solid black;
-  border-radius: 10px;
+  margin-left: 70px;
   width: 300px;
   height: 1400px;
   top: 0;
   left: 0;
 }
 .allAssassins-header {
-  margin-left: 6%;
+  margin-left: 4%;
+  text-shadow: -1px 0 #990000, 0 1px #990000, 1px 0 #990000, 0 -1px #990000;
 }
 .login-form-div {
   border: 2px solid black;
@@ -58,6 +125,7 @@ body {
 }
 .assassin-list {
   list-style-type: none;
+  font-size: 25px;
 }
 .assassin-list li {
   margin-left: 25px;
