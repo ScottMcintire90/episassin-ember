@@ -38,7 +38,7 @@ export default Ember.Route.extend({
       //THIS MAY NOT WORK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         victimFromTargetTable.set('attacker', null);
       //6. Set kendra as the attacker for the new victim on the target table
-        nextVictimAttackerTargetTable.set('attacker', attacker);
+        nextVictimAttackerTargetTable.set('attacker', user);
       //7. Save everything
         user.save();
         victimFromUserTable.save();

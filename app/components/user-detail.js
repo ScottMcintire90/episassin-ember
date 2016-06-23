@@ -11,7 +11,7 @@ export default Ember.Component.extend({
 
     for(var i = 0; i < kills; i++) {
       trophies.push("cheese");
-    };
+    }
     return trophies;
   }),
   actions: {
