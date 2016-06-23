@@ -1,14 +1,22 @@
 /*Header for site*/
 #header {
-  border: 3px solid black;
-  border-radius: 10px;
   margin-left: 200px;
   margin-right: 200px;
-  margin-top: 20px;
-  padding: 10px;
+  margin-bottom: 30px;
+  margin-top: -5px;
   text-align: center;
   font-size: 60px;
   letter-spacing: 25px;
+  text-shadow: -1px 0 #990000, 0 1px #990000, 1px 0 #990000, 0 -1px #990000;
+}
+.blood {
+  margin-right: 2%;
+  margin-top: -190px;
+  width: 600px;
+  height: 70px;*/
+}
+.head {
+  text-align: center;
 }
 .star {
   width: 50px;
@@ -22,19 +30,26 @@
 body {
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 1px;
+  background: url(  "https://theladylikeleopard.files.wordpress.com/2015/05/white-brick-wall-with-grey-concrete-floor.jpg"
+) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
 }
 
 /*styling for the homepage*/
 .allAssassins {
-  border: 1px solid black;
-  border-radius: 10px;
+  margin-left: 70px;
   width: 300px;
   height: 1400px;
   top: 0;
   left: 0;
 }
 .allAssassins-header {
-  margin-left: 6%;
+  margin-left: 4%;
+  text-shadow: -1px 0 #990000, 0 1px #990000, 1px 0 #990000, 0 -1px #990000;
 }
 .login-form-div {
   border: 2px solid black;
@@ -58,6 +73,7 @@ body {
 }
 .assassin-list {
   list-style-type: none;
+  font-size: 25px;
 }
 .assassin-list li {
   margin-left: 25px;
