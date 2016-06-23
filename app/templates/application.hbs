@@ -33,11 +33,13 @@
   </div>
 </div>
 
-<p class="microsoft marquee">{{#each model.users as |user|}}<img class="star" src="star.png">
-  {{#if user.dead}}
-    {{user.username}} was killed by {{user.target.attacker.username}} with {{user.target.attacker.weapon}}
-  {{/if}}
-{{/each}}</p>
 
+
+<p class="microsoft marquee">
+  {{#each model.targets as |target|}}
+    <img class="star" src="star.png">
+    {{target.attacker.username}} is after {{target.target}} with {{target.attacker.weapon}}
+  {{/each}}
+</p>
 
 {{outlet}}
