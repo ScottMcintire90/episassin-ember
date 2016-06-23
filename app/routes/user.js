@@ -1,20 +1,15 @@
 import Ember from 'ember';
-
 export default Ember.Route.extend({
   model(params) {
     return Ember.RSVP.hash({
-      user: this.store.findRecord('user', params.user_id),
+      targets: this.store.findAll('target'),
       users: this.store.findAll('user'),
-      targets: this.store.findAll('target')
+      user: this.store.findRecord('user', params.user_id)
     });
+
   },
 
   actions: {
-    saveKill(user) {
-      user.save();
-    },
-
-
     checkCode(params, user, targets, users) {
       var enteredCode = params.inputCode;
       var targetName = user.get('target').get('target');
@@ -54,4 +49,5 @@ export default Ember.Route.extend({
       }
     }
   }
+
 });
