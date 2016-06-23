@@ -1,7 +1,18 @@
-<p id="header">{{#link-to 'index'}}EPISASSIN{{/link-to}}</p>
+<div class="ninjaDiv">
+  <img class="ninja" src="ninja.png">
+  {{#link-to 'about'}}<p class="aboutLink">About</p>{{/link-to}}
+  <img class="ninja2" src="ninja2.png">
+  <img class="ninja3" src="ninja3.png">
+  {{#link-to 'contact'}}<p class="contactLink">Contact</p>{{/link-to}}
+  <img class="ninja4" src="ninja4.png">
+</div>
+<div class="head">
+  <p id="header">{{#link-to 'index'}}EPISASSIN{{/link-to}}</p>
+  <img class="blood" src="blood.png">
+</div>
 <p class="microsoft marquee">{{#each model.users as |user|}}<img class="star" src="star.png">
   {{#if user.dead}}
-    {{user.username}} was killed by {{user.target.username}} with {{user.weapon}}
+    {{user.username}} was killed by {{target.attacker}} with {{user.weapon}}
   {{/if}}
 {{/each}}</p>
 

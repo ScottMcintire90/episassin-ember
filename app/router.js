@@ -10,6 +10,8 @@ Router.map(function() {
   this.route('admin');
   this.route('password', {path: '/password/:user_id'});
 
+  this.route('about');
+  this.route('contact');
 });
 
 export default Router;

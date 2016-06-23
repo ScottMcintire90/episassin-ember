@@ -7,12 +7,10 @@ export default Model.extend({
   password: attr(),
   avatar: attr(),
   dead: attr(),
-  targetNum: attr(),
-  target: belongsTo('target'),
+  target: belongsTo('target', { async:true }),
   kill: attr(),
   code: attr(),
   weapon: attr(),
   weaponImage: attr(),
-  codeImage: attr(),
-  dead: attr()
+  codeImage: attr()
 });
