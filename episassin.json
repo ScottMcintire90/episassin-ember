@@ -1,0 +1,395 @@
+{
+  "targets" : [ {
+    "username" : "kendragons"
+  }, {
+    "username" : "ScottMcIntire90"
+  }, {
+    "username" : "5adiyah"
+  }, {
+    "username" : "theAppanaut"
+  }, {
+    "username" : "perrysetgo"
+  }, {
+    "username" : "dianedouglas"
+  }, {
+    "username" : "mgoren"
+  }, {
+    "username" : "alexhagge128"
+  }, {
+    "username" : "alexhagge129"
+  }, {
+    "username" : "themingfu"
+  }, {
+    "username" : "DariusCapizzi"
+  }, {
+    "username" : "Rlambier25"
+  }, {
+    "username" : "JustinFokes"
+  }, {
+    "username" : "WRCarlile"
+  }, {
+    "username" : "luuniem"
+  }, {
+    "username" : "paul-hess"
+  }, {
+    "username" : "Farnoosh63"
+  }, {
+    "username" : "thevetab"
+  }, {
+    "username" : "danwulff"
+  }, {
+    "username" : "LATAEVIA"
+  }, {
+    "username" : "jacobhefley"
+  }, {
+    "username" : "franksco"
+  }, {
+    "username" : "NoahKittleson"
+  }, {
+    "username" : "NadinYrosh"
+  }, {
+    "username" : "AshleyRayMaceli"
+  }, {
+    "username" : "erinadora"
+  }, {
+    "username" : "pabloverapdx"
+  }, {
+    "username" : "cafrinko"
+  }, {
+    "username" : "vladtheinhaler23"
+  }, {
+    "username" : "GDBMedia"
+  }, {
+    "username" : "nicklyman"
+  }, {
+    "username" : "blessb15"
+  }, {
+    "username" : "techdaly"
+  }, {
+    "username" : "inthra"
+  }, {
+    "username" : "marbulous28"
+  }],
+  "users" : [ {
+    "avatar" : "https://avatars1.githubusercontent.com/u/16630547?v=3&s=460",
+    "code" : "orange",
+    "codeImage": "http://freepngimages.com/wp-content/uploads/2014/10/oranges.png",
+    "kill" : 0,
+    "password" : "password",
+    "username" : "kendragons",
+    "weapon" : "mouse",
+    "weaponImage": "http://thewindowsclub.thewindowsclubco.netdna-cdn.com/wp-content/uploads/2011/08/Logitech-Anywhere-MX-wireless-mouse-364x400.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://ecs7.tokopedia.net/img/cache/300/product-1/2016/3/9/2569999/2569999_79e8ca26-7623-4310-926f-497c2b3173e8.jpg",
+    "code" : "ugly green smoothie",
+    "codeImage": "http://vignette3.wikia.nocookie.net/hayday/images/f/f6/Green_Smoothie.png/revision/latest?cb=20150711223959",
+    "kill" : 0,
+    "password" : "1990",
+    "username" : "ScottMcIntire90",
+    "weapon" : "headphones",
+    "weaponImage": "http://freepngimages.com/wp-content/uploads/2015/10/red-dr-dre-beats-headphones.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/16658894?v=3&s=460",
+    "code" : "kiwi",
+    "codeImage": "http://static1.1.sqspcdn.com/static/f/348393/5970182/1279350131687/kiwi.png?token=wWcLNDbehM%2FaagM8MSlRTcSrf8o%3D",
+    "kill" : 0,
+    "password" : "5ah",
+    "username" : "5adiyah",
+    "weapon" : "hand sanitizer",
+    "weaponImage": "http://static1.squarespace.com/static/545a7d88e4b04f070d4b2270/t/54d1382fe4b026f68f190d0f/1422997567463/",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/6743582?v=3&s=150",
+    "code" : "coffee",
+    "codeImage": "http://pngimg.com/upload/cup_PNG1965.png",
+    "kill" : 0,
+    "password" : "diane",
+    "username" : "dianedouglas",
+    "weapon" : "dry erase marker",
+    "weaponImage": "http://www.markafy.com/assets/landing_page/expo-markers-transparent.png",
+    "targetNum" : 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/10257491?v=3&s=150",
+    "code" : "barney",
+    "codeImage": "http://vignette4.wikia.nocookie.net/scratchpad/images/2/25/Barney_the_Dinosaur.gif/revision/latest/scale-to-width-down/107?cb=20130525214911",
+    "kill" : 0,
+    "password" : "mike",
+    "username" : "mgoren",
+    "weapon" : "desk crank",
+    "weaponImage": "http://vera.rollandproulx.com/wp-content/uploads/2015/09/adjustable-standing-desk-wood.jpg",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars2.githubusercontent.com/u/13667154?v=3&s=460",
+    "code" : "grapefruit",
+    "codeImage": "http://png.bychuhe.com/wp-content/uploads/2014/07/grapefruit-png-image-2.jpg",
+    "kill" : 0,
+    "password" : "alex",
+    "username" : "alexhagge128",
+    "weapon" : "mouse",
+    "weaponImage": "http://thewindowsclub.thewindowsclubco.netdna-cdn.com/wp-content/uploads/2011/08/Logitech-Anywhere-MX-wireless-mouse-364x400.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/12836594?v=3&s=150",
+    "code" : "persimmon",
+    "codeImage": "http://www.sedi-fruits.at/images/img-big/sharon.png",
+    "kill" : 0,
+    "password" : "ming",
+    "username" : "themingfu",
+    "weapon" : "headphones",
+    "weaponImage": "http://freepngimages.com/wp-content/uploads/2015/10/red-dr-dre-beats-headphones.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/9143151?v=3&s=150",
+    "code" : "grapes",
+    "codeImage": "http://www.pngall.com/wp-content/uploads/2016/04/Grape-Transparent.png",
+    "kill" : 0,
+    "password" : "darius",
+    "username" : "DariusCapizzi",
+    "weapon" : "headphones",
+    "weaponImage": "http://freepngimages.com/wp-content/uploads/2015/10/red-dr-dre-beats-headphones.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars2.githubusercontent.com/u/14900449?v=3&s=460",
+    "code" : "tomato",
+    "codeImage": "http://www.pngpix.com/wp-content/uploads/2016/03/Three-Tomatoes-with-Green-Leaves-PNG-image.png",
+    "kill" : 0,
+    "password" : "appanaut",
+    "username" : "theAppanaut",
+    "weapon" : "dry erase marker",
+    "weaponImage": "http://www.markafy.com/assets/landing_page/expo-markers-transparent.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars3.githubusercontent.com/u/14284114?v=3&s=150",
+    "code" : "pineapple",
+    "codeImage": "http://vignette3.wikia.nocookie.net/aonoexorcist/images/f/fb/Pineapple.png/revision/latest?cb=20141210014032",
+    "kill" : 0,
+    "password" : "reed",
+    "username" : "Rlambier25",
+    "weapon" : "peanuts",
+    "weaponImage": "http://blackinventor.com/wp-content/uploads/2013/05/layerslider-georgewashingtoncarver-peanuts.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars1.githubusercontent.com/u/15026420?v=3&s=150",
+    "code" : "douchecanoe",
+    "codeImage": "http://gentlemint-media.s3.amazonaws.com/images/2013/01/10/52d0c94e.png.505x650_q85.png",
+    "kill" : 0,
+    "password" : "justin",
+    "username" : "JustinFokes",
+    "weapon" : "mouse",
+    "weaponImage": "http://thewindowsclub.thewindowsclubco.netdna-cdn.com/wp-content/uploads/2011/08/Logitech-Anywhere-MX-wireless-mouse-364x400.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/17822226?v=3&s=460",
+    "code" : "cranberry",
+    "codeImage": "http://www.artemis-international.com/wp-content/uploads/2015/04/product-silo-cranberry.png",
+    "kill" : 0,
+    "password" : "ryan",
+    "username" : "WRCarlile",
+    "weapon" : "tissue-box",
+    "weaponImage": "https://www.kleenex.com/~/media/images/kleenex/boxdesigns/everyday-tissues/160-count-flat/sku_003_06.png?mh=441&la=en-CA&h=380&w=441&mw=441",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars1.githubusercontent.com/u/16166180?v=3&s=460",
+    "code" : "lime",
+    "codeImage": "http://cclscorp.com/ESW/Images/Lime22.png",
+    "kill" : 0,
+    "password" : "niem",
+    "username" : "luuniem",
+    "weapon" : "headphones",
+    "weaponImage":"http://freepngimages.com/wp-content/uploads/2015/10/red-dr-dre-beats-headphones.png" ,
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars3.githubusercontent.com/u/15791168?v=3&s=150",
+    "code" : "cherry",
+    "codeImage": "http://1.bp.blogspot.com/-YkkxHbyFsHU/Ucx_wLlDDRI/AAAAAAAAVS0/ewMkGM-fw84/s477/ScrapCherry24.png",
+    "kill" : 0,
+    "password" : "paul",
+    "username" : "paul-hess",
+    "weapon" : "hand sanitizer",
+    "weaponImage": "http://static1.squarespace.com/static/545a7d88e4b04f070d4b2270/t/54d1382fe4b026f68f190d0f/1422997567463/",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars3.githubusercontent.com/u/15042035?v=3&s=150",
+    "code" : "pear",
+    "codeImage": "http://pngimg.com/upload/small/pear_PNG3466.png",
+    "kill" : 0,
+    "password" : "farnoosh",
+    "username" : "Farnoosh63",
+    "weapon" : "tissue box",
+    "weaponImage": "https://www.kleenex.com/~/media/images/kleenex/boxdesigns/everyday-tissues/160-count-flat/sku_003_06.png?mh=441&la=en-CA&h=380&w=441&mw=441",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars3.githubusercontent.com/u/16603622?v=3&s=460",
+    "code" : "peach",
+    "codeImage": "http://pngimg.com/upload/small/peach_PNG4893.png",
+    "kill" : 0,
+    "password" : "thevetab",
+    "username" : "thevetab",
+    "weapon" : "potted plant",
+    "weaponImage": "http://vignette4.wikia.nocookie.net/dead-rising/images/2/2d/Dead_rising_Potted_Plant_(2).png/revision/latest?cb=20100805060109",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/16442446?v=3&s=460",
+    "code" : "plum",
+    "codeImage": "http://pngimg.com/upload/small/plum_PNG8670.png",
+    "kill" : 0,
+    "password" : "amanda",
+    "username" : "techdaly",
+    "weapon" : "mouse",
+    "weaponImage": "http://thewindowsclub.thewindowsclubco.netdna-cdn.com/wp-content/uploads/2011/08/Logitech-Anywhere-MX-wireless-mouse-364x400.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars2.githubusercontent.com/u/17691829?v=3&s=460",
+    "code" : "lychee",
+    "codeImage": "http://www.vanderpumpdogs.org/international-campaigns/img/lychee.png",
+    "kill" : 0,
+    "password" : "inthra",
+    "username" : "inthra",
+    "weapon" : "dry erase marker",
+    "weaponImage": "http://www.markafy.com/assets/landing_page/expo-markers-transparent.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars3.githubusercontent.com/u/17821843?v=3&s=460",
+    "code" : "dogfish",
+    "codeImage": "http://i1206.photobucket.com/albums/bb452/Jamieoneil/Dogfish.png",
+    "kill" : 0,
+    "password" : "daniel",
+    "username" : "danwulff",
+    "weapon" : "mouse",
+    "weaponImage": "http://thewindowsclub.thewindowsclubco.netdna-cdn.com/wp-content/uploads/2011/08/Logitech-Anywhere-MX-wireless-mouse-364x400.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/17829316?v=3&s=460",
+    "code" : "lionfish",
+    "codeImage": "http://vignette4.wikia.nocookie.net/fishville/images/a/a5/Blackfoot_Lionfish_(2).png/revision/latest?cb=20091214122159",
+    "kill" : 0,
+    "password" : "blake",
+    "username" : "blessb15",
+    "weapon" : "potted plant",
+    "weaponImage": "http://vignette4.wikia.nocookie.net/dead-rising/images/2/2d/Dead_rising_Potted_Plant_(2).png/revision/latest?cb=20100805060109",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/17829316?v=3&s=460",
+    "code" : "clownfish",
+    "codeImage": "http://bestanimations.com/Animals/Fish/aquarium/clownfishanimation-28.gif",
+    "kill" : 0,
+    "password" : "nick",
+    "username" : "nicklyman",
+    "weapon" : "water bottle",
+    "weaponImage": "http://www.clipartlord.com/wp-content/uploads/2014/05/water-bottle.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/17752292?v=3&s=460",
+    "code" : "jake",
+    "codeImage": "http://www.cliparthut.com/clip-arts/134/adventure-time-finns-dad-134291.png",
+    "kill" : 0,
+    "password" : "jacob",
+    "username" : "jacobhefley",
+    "weapon" : "water bottle",
+    "weaponImage": "http://www.clipartlord.com/wp-content/uploads/2014/05/water-bottle.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/17752292?v=3&s=460",
+    "code" : "bear-cat",
+    "codeImage": "http://pngimg.com/upload/bear_PNG1199.png",
+    "kill" : 0,
+    "password" : "tae",
+    "username" : "LATAEVIA",
+    "weapon" : "mouse",
+    "weaponImage": "http://thewindowsclub.thewindowsclubco.netdna-cdn.com/wp-content/uploads/2011/08/Logitech-Anywhere-MX-wireless-mouse-364x400.png",
+    "targetNum": 0
+  },{
+    "avatar" : "https://avatars0.githubusercontent.com/u/17752292?v=3&s=460",
+    "code" : "kitten",
+    "codeImage": "http://i0.wp.com/freepngimages.com/wp-content/uploads/2015/06/kitten-playing.png?resize=624%2C351",
+    "kill" : 0,
+    "password" : "marbulous",
+    "username" : "marbulous28",
+    "weapon" : "mouse",
+    "weaponImage": "http://thewindowsclub.thewindowsclubco.netdna-cdn.com/wp-content/uploads/2011/08/Logitech-Anywhere-MX-wireless-mouse-364x400.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/17752292?v=3&s=460",
+    "code" : "doormouse",
+    "codeImage": "https://www.hscripts.com/freeimages/icons/wild-animals/dormouse/dormouse12.gif",
+    "kill" : 0,
+    "password" : "cory",
+    "target" : "",
+    "username" : "franksco",
+    "weapon" : "mouse",
+    "weaponImage": "http://thewindowsclub.thewindowsclubco.netdna-cdn.com/wp-content/uploads/2011/08/Logitech-Anywhere-MX-wireless-mouse-364x400.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/17752292?v=3&s=460",
+    "code" : "audry2",
+    "codeImage": "http://4.bp.blogspot.com/_yZvPKCRbcEk/SxKic2XQMHI/AAAAAAAAAJE/fW_ycC3gcC0/s1600/VFT+Done.png",
+    "kill" : 0,
+    "password" : "noah",
+    "username" : "NoahKittleson",
+    "weapon" : "potted plant",
+    "weaponImage": "http://vignette4.wikia.nocookie.net/dead-rising/images/2/2d/Dead_rising_Potted_Plant_(2).png/revision/latest?cb=20100805060109",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars2.githubusercontent.com/u/15952457?v=3&s=460",
+    "code" : "apple",
+    "codeImage": "http://i1.wp.com/freepngimages.com/wp-content/uploads/2015/11/apple-transparent-background-image.png?w=600",
+    "kill" : 0,
+    "password" : "nadiyah",
+    "username" : "NadinYrosh",
+    "weapon" : "headphones",
+    "weaponImage": "http://freepngimages.com/wp-content/uploads/2015/10/red-dr-dre-beats-headphones.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars1.githubusercontent.com/u/16560022?v=3&s=460",
+    "code" : "cookie monster",
+    "codeImage": "http://revampmama.com/wp-content/uploads/2013/04/Cookie-Monster.png",
+    "kill" : 0,
+    "password" : "pablo",
+    "username" : "pabloverapdx",
+    "weapon" : "desk crank",
+    "weaponImage": "http://vera.rollandproulx.com/wp-content/uploads/2015/09/adjustable-standing-desk-wood.jpg",
+    "targetNum": 0
+  },{
+    "avatar" : "https://avatars1.githubusercontent.com/u/16560022?v=3&s=460",
+    "code" : "mermaid",
+    "codeImage": "http://vignette4.wikia.nocookie.net/disney/images/1/12/Ariel_Transparent.png/revision/latest?cb=20130522181156",
+    "kill" : 0,
+    "password" : "erin",
+    "username" : "erinadora",
+    "weapon" : "desk crank",
+    "weaponImage": "http://vera.rollandproulx.com/wp-content/uploads/2015/09/adjustable-standing-desk-wood.jpg",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/406296?v=3&s=460",
+    "code" : "dragon",
+    "codeImage": "http://i.imgur.com/HVirpCX.png",
+    "kill" : 0,
+    "password" : "catherine",
+    "username" : "cafrinko",
+    "weapon" : "hand sanitizer",
+    "weaponImage": "http://static1.squarespace.com/static/545a7d88e4b04f070d4b2270/t/54d1382fe4b026f68f190d0f/1422997567463/",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars2.githubusercontent.com/u/12723198?v=3&s=460",
+    "code" : "purple pumpkineater",
+    "codeImage": "http://www.misskatecuttables.com/uploads/shopping_cart/10621/large_purple-baby-monster.png",
+    "kill" : 0,
+    "password" : "ashley",
+    "username" : "AshleyRayMaceli",
+    "weapon" : "dry erase marker",
+    "weaponImage": "http://www.markafy.com/assets/landing_page/expo-markers-transparent.png",
+    "targetNum": 0
+  }, {
+    "avatar" : "https://avatars3.githubusercontent.com/u/12982277?v=3&s=460",
+    "code" : "popeye",
+    "codeImage": "http://orig07.deviantart.net/f3c7/f/2016/014/c/1/popeye_sails_into_death_battle__by_doctorworm1987-d9h4gvg.png",
+    "kill" : 0,
+    "password" : "garret",
+    "username" : "GDBMedia",
+    "weapon" : "hand sanitizer",
+    "weaponImage": "http://static1.squarespace.com/static/545a7d88e4b04f070d4b2270/t/54d1382fe4b026f68f190d0f/1422997567463/",
+    "targetNum": 0
+  }]
+}
