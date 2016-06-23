@@ -17,12 +17,14 @@ export default Ember.Component.extend({
             }
           }
         for(var i = 0; i < randoms.length; i++){
-          user.findBy("id", "" + i + "").set('target', target.findBy("id", "" + randoms[i] + ""));
-          user.findBy("id", "" + i + "").set('kill', "0");
-          user.findBy("id", "" + i + "").set('dead', "false");
-          user.findBy("id", "" + i + "").save();
-          target.findBy("id", "" + randoms[i] + "").set('user', user.findBy("id", "" + i + ""));
-          target.findBy("id", "" + randoms[i] + "").save();
+          if(user.findBy("id", "" + i + "").get('id') != randoms[i]){
+            user.findBy("id", "" + i + "").set('target', target.findBy("id", "" + randoms[i] + ""));
+            user.findBy("id", "" + i + "").set('kill', "0");
+            user.findBy("id", "" + i + "").set('dead', "false");
+            user.findBy("id", "" + i + "").save();
+            target.findBy("id", "" + randoms[i] + "").set('user', user.findBy("id", "" + i + ""));
+            target.findBy("id", "" + randoms[i] + "").save();
+          }
         }
       }
     }

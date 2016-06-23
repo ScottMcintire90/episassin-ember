@@ -1,7 +1,7 @@
 <p id="header">{{#link-to 'index'}}EPISASSIN{{/link-to}}</p>
 <p class="microsoft marquee">{{#each model.users as |user|}}<img class="star" src="star.png">
   {{#if user.dead}}
-    {{user.username}} was killed by {{user.target.username}} with {{user.weapon}}
+    {{user.username}} was killed by {{user.target.attacker}} with {{user.weapon}}
   {{/if}}
 {{/each}}</p>
 
