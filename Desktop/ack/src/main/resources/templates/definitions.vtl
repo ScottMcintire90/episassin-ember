@@ -1,0 +1,10 @@
+
+<div id="container">
+	<h1>All Definitions</h1>
+	<ul>
+	#foreach ($definition in $words)
+	  <li><a href="/definitions/$definition.getId()">$definition.getDefinition()</a></li>
+	#end
+	</ul>
+	<a href="/new-word-form">Add New word</a>
+</div>

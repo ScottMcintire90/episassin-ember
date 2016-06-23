@@ -1,0 +1,7 @@
+<h3>Here are the tasks in this category</h3>
+
+#foreach($task in $tasks)
+  <h3>$task.getDescription()</h3>
+#extends
+<a href = "categories/$category.getId()/tasks/new">Add a new task</a>
+<a href = "/">Return to main page</a>

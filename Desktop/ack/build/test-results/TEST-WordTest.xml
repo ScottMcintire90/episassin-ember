@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WordTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-04-29T23:49:03" hostname="Snargle.local" time="0.017">
+  <properties/>
+  <testcase name="getWords_returnsEmptyArray" classname="WordTest" time="0.003"/>
+  <testcase name="name_instantiatesCorrectly_true" classname="WordTest" time="0.001"/>
+  <testcase name="find_returnsWordwithId" classname="WordTest" time="0.0"/>
+  <testcase name="addDefinition_addsDefinition" classname="WordTest" time="0.0"/>
+  <testcase name="clear_actuallyClears" classname="WordTest" time="0.001"/>
+  <testcase name="getId_wordsInstantiateWithAnID_1" classname="WordTest" time="0.001"/>
+  <testcase name="getWord_instantiatesWithWord_nuqneH" classname="WordTest" time="0.0"/>
+  <testcase name="getWords_allWordsinArray_array" classname="WordTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

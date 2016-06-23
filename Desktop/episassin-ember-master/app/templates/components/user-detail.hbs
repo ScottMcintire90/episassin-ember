@@ -1,0 +1,38 @@
+<div class="assassin-header">
+  {{user.username}}
+</div>
+<h2 class="assassin-profile">Assassin Profile</h2>
+<div class="assassin-content">
+  <div class="avatar stats">
+    <img class="avatar-image" src='{{user.avatar}}'>
+  </div>
+  <div class="stats">
+    <h3><center>Target</center></h3>
+    <br>
+    <p class="indent">{{user.target.target}}</p>
+    <h3><center>Weapon</center></h3>
+    <br>
+    <p class="indent">{{user.weapon}}</p>
+    <img class="weapon-image" src='{{user.weaponImage}}'>
+  </div>
+</div>
+  <button class="btn-danger" {{action 'killUser' user}}>Killed Target</button>
+
+<div class="code-image">
+  <img id="code-image-size" src={{user.codeImage}}>
+  <div class="code">
+    <p>Your Kill Code is</p>
+    <br>
+    <p id="user-code">{{user.code}}</p>
+  </div>
+</div>
+
+<div>
+{{#each trophyCollection.targets as |target|}}
+  <h1>{{target.weapon}}</h1>
+{{/each}}
+</div>
+
+<div class="trophy-shelf">
+
+</div>

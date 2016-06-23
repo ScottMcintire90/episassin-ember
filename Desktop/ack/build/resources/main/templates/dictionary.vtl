@@ -1,0 +1,10 @@
+
+<h1>Your Words:</h1>
+</br>
+<ul>
+#foreach($word in $words)
+  <li><a href = "/dictionary/$word.getId()">$word.getWord()</a></h3></li>
+</ul>
+#end
+
+<a href = "/new-word-form">Go Add a New Word</a>

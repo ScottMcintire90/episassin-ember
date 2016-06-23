@@ -1,0 +1,16 @@
+<h2>$word.getWords()</h2>
+<h4>Here are all the definitions:</h4><br>
+
+<ul class="list-group">
+#foreach($definition in $word.getDefinitions())
+ <li class="list-group-item list-group-item-success">$definition.getDefinition()</li>
+#end
+<ul>
+
+<br>
+
+<p>
+<button type="button" class="btn btn-info"><a id="btn" href="/new-definition">Add Your Definition</a></button>
+<button type="button" class="btn btn-success"><a id="btn" href="/new-word-form">Add a new word</a></button>
+<button type="button" class="btn btn-info"><a id="btn" href="/dictionary">View word list</a></button>
+</p>
