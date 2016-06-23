@@ -12,11 +12,7 @@
 </div>
 <p class="microsoft marquee">{{#each model.users as |user|}}<img class="star" src="star.png">
   {{#if user.dead}}
-<<<<<<< HEAD
-    {{user.username}} was killed by {{target.attacker}} with {{user.weapon}}
-=======
     {{user.username}} was killed by {{user.target.attacker}} with {{user.weapon}}
->>>>>>> master
   {{/if}}
 {{/each}}</p>
 
