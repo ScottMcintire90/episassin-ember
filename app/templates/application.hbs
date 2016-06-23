@@ -1,19 +1,64 @@
-<div class="ninjaDiv">
-  <img class="ninja" src="ninja.png">
-  {{#link-to 'about'}}<p class="aboutLink">About</p>{{/link-to}}
-  <img class="ninja2" src="ninja2.png">
-  <img class="ninja3" src="ninja3.png">
-  {{#link-to 'contact'}}<p class="contactLink">Contact</p>{{/link-to}}
-  <img class="ninja4" src="ninja4.png">
+<div class="container">
+  <div class="row">
+    <div class="col col--3-of-12">
+      <div class="row">
+        <div class="col col--1-of-3">
+          <img src="ninja.png" class="ninja"  />
+        </div>
+        <div class="col col--1-of-3 link">
+          {{#link-to 'about'}}<span>About</span>{{/link-to}}
+        </div>
+        <div class="col col--1-of-3">
+          <img src="ninja2.png" class="ninja" />
+        </div>
+      </div>
+    </div>
+    <div class="col col--6-of-12 center">
+      <p id="header2">{{#link-to 'index'}}EPISASSIN{{/link-to}}</p>
+      <p><img class="blood" src="blood.png"></p>
+    </div>
+    <div class="col col--3-of-12 right">
+      <div class="row">
+        <div class="col col--1-of-3">
+          <img src="ninja3.png" class="ninja"  />
+        </div>
+        <div class="col col--1-of-3 link2">
+          {{#link-to 'contact'}}<span>Contact</span>{{/link-to}}
+        </div>
+        <div class="col col--1-of-3">
+          <img src="ninja4.png" class="ninja" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- <div class="row">
+    <div class="col col--3-of-12">
+      <img class="ninja" src="ninja.png">
+      {{#link-to 'about'}}<p>About</p>{{/link-to}}
+      <img class="ninja" src="ninja2.png">
+    </div>
+    <div class="col col--3-of-12">
+      <p id="header">{{#link-to 'index'}}EPISASSIN{{/link-to}}</p>
+      <img class="ninja" class="blood" src="blood.png">
+    </div>
+    <div class="col col--3-of-12">
+      <img class="ninja" src="ninja3.png">
+      {{#link-to 'contact'}}<p>Contact</p>{{/link-to}}
+      <img class="ninja" src="ninja4.png">
+    </div>
+  </div> -->
 </div>
-<div class="head">
-  <p id="header">{{#link-to 'index'}}EPISASSIN{{/link-to}}</p>
-  <img class="blood" src="blood.png">
-</div>
-<p class="microsoft marquee">{{#each model.users as |user|}}<img class="star" src="star.png">
-  {{#if user.dead}}
-    {{user.username}} was killed by {{target.attacker}} with {{user.weapon}}
-  {{/if}}
-{{/each}}</p>
+
+  <p class="microsoft marquee">{{#each model.users as |user|}}<img class="star" src="star.png">
+    {{#if user.dead}}
+      {{user.username}} was killed by {{target.attacker}} with {{user.weapon}}
+    {{/if}}
+  {{/each}}</p>
+
+
 
 {{outlet}}
