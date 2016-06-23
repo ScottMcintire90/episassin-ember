@@ -17,14 +17,12 @@ export default Ember.Route.extend({
 
     checkCode(params, user, targets, users) {
     //All Variables
-      var attackerName = user.get('username'); //kendragons
       var attacker = user; //kendragons object userT
-      var attackersTarget = user.get('target'); //Currently scott needs to change to 5adiyah
       var victimName = user.get('target').get('target');  //ScottMcIntire90
       var victimFromTargetTable = targets.findBy('target', "" + victimName + "");  //Scotts object targetT
       var victimFromUserTable = users.findBy('username', "" + victimName + ""); //Scotts object userT
-      var nextVictimName = victimFromUserTable.get('target').get('target') //5adiyah
-      var nextVictimFromUserTable = victimFromUserTable.get('target') //5adiyahs Object userT
+      var nextVictimName = victimFromUserTable.get('target').get('target'); //5adiyah
+      var nextVictimFromUserTable = victimFromUserTable.get('target'); //5adiyahs Object userT
       var nextVictimAttackerTargetTable = targets.findBy('target', nextVictimName);
 
     //1. Kendra kills scott:
@@ -33,7 +31,7 @@ export default Ember.Route.extend({
     //2. Scott is dead now
       victimFromUserTable.set('dead', true);
     //3. Scott's target is now kendra's in kendra's user object
-      user.set('target', nextVictim);
+      user.set('target', nextVictimFromUserTable);
     //4. Remove scott's target field in the user table
     //THIS MAY NOT WORK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
       victimFromUserTable.set('target', null);
