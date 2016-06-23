@@ -1,0 +1,40 @@
+{
+  "targets" : [ {
+    "target" : "kendragons"
+  }, {
+    "target" : "ScottMcIntire90"
+  }, {
+    "target" : "5adiyah"
+  } ],
+  "users" : [ {
+    "avatar" : "https://avatars1.githubusercontent.com/u/16630547?v=3&s=460",
+    "code" : "unicorn",
+    "codeImage" : "http://www.culchieworks.com/blog/wp-content/uploads/2014/03/unicorn.png",
+    "dead" : false,
+    "kill" : 0,
+    "password" : "password",
+    "username" : "kendragons",
+    "weapon" : "a mouse",
+    "weaponImage" : "http://thewindowsclub.thewindowsclubco.netdna-cdn.com/wp-content/uploads/2011/08/Logitech-Anywhere-MX-wireless-mouse-364x400.png"
+  }, {
+    "avatar" : "https://ecs7.tokopedia.net/img/cache/300/product-1/2016/3/9/2569999/2569999_79e8ca26-7623-4310-926f-497c2b3173e8.jpg",
+    "code" : "ugly green smoothie",
+    "codeImage" : "http://vignette3.wikia.nocookie.net/hayday/images/f/f6/Green_Smoothie.png/revision/latest?cb=20150711223959",
+    "dead" : false,
+    "kill" : 0,
+    "password" : "1990",
+    "username" : "ScottMcIntire90",
+    "weapon" : "headphones",
+    "weaponImage" : "http://freepngimages.com/wp-content/uploads/2015/10/red-dr-dre-beats-headphones.png"
+  }, {
+    "avatar" : "https://avatars0.githubusercontent.com/u/16658894?v=3&s=460",
+    "code" : "kiwi",
+    "codeImage" : "http://static1.1.sqspcdn.com/static/f/348393/5970182/1279350131687/kiwi.png?token=wWcLNDbehM%2FaagM8MSlRTcSrf8o%3D",
+    "dead" : false,
+    "kill" : 0,
+    "password" : "5ah",
+    "username" : "5adiyah",
+    "weapon" : "hand sanitizer",
+    "weaponImage" : "http://static1.squarespace.com/static/545a7d88e4b04f070d4b2270/t/54d1382fe4b026f68f190d0f/1422997567463/"
+  } ]
+}

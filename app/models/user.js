@@ -7,7 +7,6 @@ export default Model.extend({
   password: attr(),
   avatar: attr(),
   dead: attr(),
-  targetNum: attr(),
   target: belongsTo('target', { async:true }),
   kill: attr(),
   code: attr(),
