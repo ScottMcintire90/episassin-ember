@@ -1,7 +1,26 @@
-# Episassin
+# Epissassin
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+##By
+
+Sadio Ali
+
+Kendra Dunham
+
+Scott Holland Jr.
+
+Scott McIntire
+
+##About
+
+This is a fun team building exercise amongst epicodus classmates--everyone is assigned a target, your goal is to finish them with your given weapon. Get creative! Be a sneaky murderous ninja for a day and end your friends' run to be the best assassin of Epicodus.
+
+To play, sign in according to your github ID. It's not complicated and we're on the honor system, your ID is your password. Javascript user auth is hard so that's the way we did it. You will have a page where you can log your kills and you can see your very own secret kill code. Don't give this out unless someone kills you with their weapon of choice. If you kill someone, you will get a new target who will have their own unique code. Once you kill them the cycle continues.
+
+Have fun, but remember: THERE CAN ONLY BE ONE.
+
+##Disclaimer
+
+Please don't actually stab anyone with a desk crank. Or give Diane peanuts. Or poison someone with hand sanitizer. Be creatively nonlethal, we won't bail you out of jail or justify you in a court of law.
 
 ## Prerequisites
 
@@ -22,12 +41,9 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember server`
+* `ember s`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
