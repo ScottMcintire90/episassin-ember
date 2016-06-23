@@ -1,4 +1,14 @@
-
+/**about page**/
+.about-text {
+  font-size: 18px;
+}
+#highlander {
+  margin-left: 30%;
+}
+/**contact-page**/
+.contact-us {
+  margin-top: 20%;
+}
 
 /**login**/
 .login-pics {
