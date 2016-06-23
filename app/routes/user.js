@@ -44,6 +44,7 @@ export default Ember.Route.extend({
         victimFromUserTable.save();
         victimFromTargetTable.save();
         nextVictimAttackerTargetTable.save();
+        alert("success. now kill the next one.")
       } else {
         alert("That shit ain't right");
       }

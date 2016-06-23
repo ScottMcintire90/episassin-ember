@@ -1,2 +1,6 @@
 {{user-detail user=model.user saveKill="saveKill"}}
 {{log model.user.target.username}}
+
+<div class="code-image">
+  {{log-kill user=model.user users=model.users targets=model.targets checkCode="checkCode"}}
+</div>

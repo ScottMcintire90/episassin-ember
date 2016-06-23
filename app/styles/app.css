@@ -208,8 +208,29 @@ background-size: cover;
   margin-right: 10px;
 }
 .code-image {
-  margin-left: 35%;
-  margin-top: -700px;
+  margin-left: 22%;
+  margin-top: -600px;
+}
+#input-button {
+  width: 340px;
+  height: 75px;
+  font-size: 30px;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+
+}
+#inputCode {
+  width: 329px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 1px black solid;
+  padding: 5px;
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
+}
+.skull {
+  height: 30px;
 }
 .code {
   margin-left: 10%;

@@ -1,4 +1,14 @@
-<form>
-  {{input value=inputCode id="inputCode" placeholder="Target's secret code:"}}
-  <button {{action "checkCode" user targets users}}>Assassinate</button>
-</form>
+<div class="code-image">
+  <i class="fi-skull"></i>
+  <form>
+    {{input value=inputCode id="inputCode" placeholder="Target's secret code:"}}
+    <br>
+    <button {{action "checkCode" user targets users}} id="input-button"><img class="skull" src="skull.png"> Assassinate <img class="skull" src="skull.png"></button>
+  </form>
+  <img id="code-image-size" src={{user.codeImage}}>
+  <div class="code">
+    <p>Your Kill Code is</p>
+    <br>
+    <p id="user-code">{{user.code}}</p>
+  </div>
+</div>
