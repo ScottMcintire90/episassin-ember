@@ -36,9 +36,9 @@
 
 
 <p class="microsoft marquee">
-  {{#each model.targets as |target|}}
+  {{#each model.users as |user|}}
     <img class="star" src="star.png">
-    {{target.attacker.username}} is after {{target.target}} with {{target.attacker.weapon}}
+    {{user.username}} is after {{user.target.target}} with {{user.weapon}}
   {{/each}}
 </p>
 
