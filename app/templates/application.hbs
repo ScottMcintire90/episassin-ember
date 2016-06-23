@@ -31,31 +31,11 @@
       </div>
     </div>
   </div>
-
-
-
-
-  <!-- <div class="row">
-    <div class="col col--3-of-12">
-      <img class="ninja" src="ninja.png">
-      {{#link-to 'about'}}<p>About</p>{{/link-to}}
-      <img class="ninja" src="ninja2.png">
-    </div>
-    <div class="col col--3-of-12">
-      <p id="header">{{#link-to 'index'}}EPISASSIN{{/link-to}}</p>
-      <img class="ninja" class="blood" src="blood.png">
-    </div>
-    <div class="col col--3-of-12">
-      <img class="ninja" src="ninja3.png">
-      {{#link-to 'contact'}}<p>Contact</p>{{/link-to}}
-      <img class="ninja" src="ninja4.png">
-    </div>
-  </div> -->
 </div>
 
 <p class="microsoft marquee">{{#each model.users as |user|}}<img class="star" src="star.png">
   {{#if user.dead}}
-    {{user.username}} was killed by {{user.target.attacker}} with {{user.weapon}}
+    {{user.username}} was killed by {{user.target.attacker.username}} with {{user.target.attacker.weapon}}
   {{/if}}
 {{/each}}</p>
 

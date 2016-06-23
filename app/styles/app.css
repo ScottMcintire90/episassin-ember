@@ -244,6 +244,17 @@ background-size: cover;
   width: 350px;
 }
 
+#reset-button {
+  height: 100px;
+  width: 400px;
+  color: white;
+  background-color: black;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  margin-left: 38%;
+  margin-top: 20%;
+}
+
 /*marquee styling under header*/
 .marquee {
     width: 100%;
