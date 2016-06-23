@@ -164,7 +164,7 @@ background-size: cover;
   left: 0;
 }
 .indent {
-  margin-left: 20px;
+  margin-left: 10%;
 }
 .avatar {
   margin-bottom: 15px;
@@ -209,7 +209,7 @@ background-size: cover;
 }
 .code-image {
   margin-left: 22%;
-  margin-top: -600px;
+  margin-top: -650px;
 }
 #input-button {
   width: 340px;
@@ -233,15 +233,22 @@ background-size: cover;
   height: 30px;
 }
 .code {
-  margin-left: 10%;
+  margin-top: 4%;
 }
 #user-code {
-  margin-left: 25px;
+  font-size: 30px;
+  /*margin-left: 25px;*/
+  margin-top: -20px;
+}
+#user-code-indent {
+  font-size: 30px;
+  margin-left: 45px;
   margin-top: -20px;
 }
 #code-image-size {
-  height: 300px;
+  height: 350px;
   width: 350px;
+  margin-top: 20px;
 }
 
 #reset-button {
