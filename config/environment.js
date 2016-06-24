@@ -6,10 +6,10 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     firebase: {
-      apiKey: "AIzaSyA0Towv7in2xig0iAT7yjbohmlIVdBetUI",
-      authDomain: "episassin.firebaseapp.com",
-      databaseURL: "https://episassin.firebaseio.com",
-      storageBucket: "episassin.appspot.com",
+      apiKey: "AIzaSyAiRHb4zjt6uioNfiNw8kefYhih5CRKsVE",
+      authDomain: "epissassin.firebaseapp.com",
+      databaseURL: "https://epissassin.firebaseio.com",
+      storageBucket: "epissassin.appspot.com",
     },
     locationType: 'auto',
     EmberENV: {

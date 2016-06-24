@@ -13,28 +13,30 @@ export default Ember.Component.extend({
         while (randoms.length < numUsers) {
           var random = Math.floor(Math.random() * (numUsers) + 0);
             if (randoms.indexOf(random) === -1) {
-              randoms.push(random);
+                randoms.push(random);
             }
           }
         for(var i = 0; i < randoms.length; i++){
+            if(randoms[i] == 30){
+              randoms = randoms.slice(i);
+            }
 
-          // user.findBy("id", "" + i + "").set('target', target.findBy("id", "" + randoms[i] + ""));
-          // user.findBy("id", "" + i + "").set('kill', 0);
-          // user.findBy("id", "" + i + "").set('dead', false);
-          // user.findBy("id", "" + i + "").save();
-          // target.findBy("id", "" + randoms[i] + "").set('user', user.findBy("id", "" + i + ""));
-          // target.findBy("id", "" + randoms[i] + "").save();
+            var thisUser = user.findBy('id', "" + i + "");
+            var thisTarget = target.findBy('id', "" + randoms[i] + "");
+            if(user.findBy('id', "" + thisUser.get('id') + "") !== user.findBy('id', "" + thisUser.get('id') + "").get('target').get('id')){
+              thisUser.set('target', target.findBy("id", "" + randoms[i] + ""));
+              thisUser.set('kill', "0");
+              thisUser.set('dead', "false");
+              thisUser.save();
+              target.findBy("id", "" + randoms[i] + "").set('attacker', thisUser);
+              target.findBy("id", "" + randoms[i] + "").save();
 
-          if(user.findBy("id", "" + i + "").get('id') !== randoms[i]){
-            user.findBy("id", "" + i + "").set('target', target.findBy("id", "" + randoms[i] + ""));
-            user.findBy("id", "" + i + "").set('kill', "0");
-            user.findBy("id", "" + i + "").set('dead', "false");
-            user.findBy("id", "" + i + "").save();
-            target.findBy("id", "" + randoms[i] + "").set('user', user.findBy("id", "" + i + ""));
-            target.findBy("id", "" + randoms[i] + "").save();
+              console.log(randoms);
+              console.log(thisUser.get('id') + " was assigned to " + thisUser.get('target').get('id'))
+
+            }
           }
         }
       }
     }
-  }
 });
