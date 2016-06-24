@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="col col--6-of-12 center">
-      <p id="header2">{{#link-to 'index'}}EPISASSIN{{/link-to}}</p>
+      <p id="header2">{{#link-to 'index'}}EPISSASSIN{{/link-to}}</p>
       <p><img class="blood" src="blood.png"></p>
     </div>
     <div class="col col--3-of-12 right">
@@ -36,9 +36,9 @@
 
 
 <p class="microsoft marquee">
-  {{#each model.targets as |target|}}
+  {{#each model.users as |user|}}
     <img class="star" src="star.png">
-    {{target.attacker.username}} is after {{target.target}} with {{target.attacker.weapon}}
+    {{user.username}} is after {{user.target.target}} with {{user.weapon}}
   {{/each}}
 </p>
 
