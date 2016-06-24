@@ -123,8 +123,9 @@ background-size: cover;
 
 /*styling for the homepage*/
 .allAssassins {
+  margin: 0 auto;
   margin-left: 70px;
-  width: 300px;
+  width: 1000px;
   top: 0;
   left: 0;
 }
@@ -344,4 +345,14 @@ background-size: cover;
     height: 100%;
     background: url(http://combatace.com/uploads/monthly_02_2015/post-25391-0-66832400-1423472920.jpg);
     opacity: 0.7;
+}
+.assassins {
+  height: 700px;
+  max-height: 700px;
+  width:370px;
+  overflow-y: scroll;
+}
+.instructions {
+  padding-top: 50px;
+  text-align: center;
 }
